@@ -5,6 +5,7 @@ import * as echarts from 'echarts';
 import {Chart1} from "../component/Chart1";
 import {Chart2} from "../component/Chart2";
 import {Chart3} from "../component/Chart3";
+import {Chart4} from "../component/Chart4";
 
 
 export const Home = () => {
@@ -27,6 +28,10 @@ export const Home = () => {
                 <div className="border 趋势分析">
                     <h2>发案趋势分析</h2>
                     <Chart3/>
+                </div>
+                <div className="border 趋势分析">
+                    <h2>发案趋势分析</h2>
+                    <Chart4/>
                 </div>
             </section>
             <section className="border section3"></section>

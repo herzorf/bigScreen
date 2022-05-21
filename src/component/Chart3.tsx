@@ -9,12 +9,12 @@ export const Chart3 = () => {
         const myChart = echarts.init(chartRef.current);
         myChart.setOption( {
             legend: {
-                data: ['盗窃', '两抢', '诈骗', "敲诈", '勒索'],
-                textStyle:{
-                    color:"#7B9FC1",
-                    fontSize:px(12)
+                data: ["盗窃", "两抢", "诈骗", "敲诈", "勒索"],
+                textStyle: {
+                    color: "#7B9FC1",
+                    fontSize: px(12)
                 },
-                bottom:px(0),
+                bottom: px(0),
                 itemWidth: px(30),
                 itemHeight: px(16)
             },
