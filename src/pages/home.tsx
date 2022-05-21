@@ -6,6 +6,7 @@ import {Chart1} from "../component/Chart1";
 import {Chart2} from "../component/Chart2";
 import {Chart3} from "../component/Chart3";
 import {Chart4} from "../component/Chart4";
+import {TableData} from "../component/TableData";
 
 
 export const Home = () => {
@@ -34,7 +35,12 @@ export const Home = () => {
                     <Chart4/>
                 </div>
             </section>
-            <section className="border section3"></section>
+            <section className="border section3">
+                <div>
+                    <h2>往年战果数对比</h2>
+                    <TableData/>
+                </div>
+            </section>
             <section className="border section4"></section>
             <section className="border section5"></section>
         </main>
