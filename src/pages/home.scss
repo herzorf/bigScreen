@@ -53,7 +53,7 @@
     }
     > .section1 {
       grid-area: box1;
-      .管辖统计{
+      >div{
         display: flex;
         flex-direction: column;
         height: px(315);

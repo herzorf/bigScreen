@@ -1,13 +1,6 @@
 import React, {useEffect, useRef} from "react";
 import * as echarts from "echarts";
-
-function px(px) {
-    const clientHeight = document.documentElement.clientHeight;
-    const clientWidth = document.documentElement.clientWidth;
-    let pageWidth = clientWidth / clientHeight > 16 / 9 ? clientHeight * (16 / 9) : clientWidth;
-    return px / 2420 * pageWidth;
-}
-
+import  {px} from "../shared/help"
 export const Chart1 = () => {
     const chartRef = useRef(null);
     useEffect(() => {
