@@ -57,8 +57,6 @@ export const Chart2 = () => {
         });
     }, []);
     return (
-        <div ref={chartRef} className="chart">
-
-        </div>
+        <div ref={chartRef} className="chart"/>
     );
 };

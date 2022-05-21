@@ -61,7 +61,7 @@
     >section{
       text-align: center;
     }
-    > .section1 {
+    > .section1,.section2 {
       grid-area: box1;
       display: flex;
       flex-direction: column;
@@ -69,7 +69,7 @@
       >div{
         display: flex;
         flex-direction: column;
-        height: px(315);
+        min-height: px(315);
         align-items: center;
         h2{
           flex-shrink: 0;
@@ -93,6 +93,9 @@
 
     > .section2 {
       grid-area: box2;
+      & .趋势分析{
+        height: px(370);
+      }
     }
 
     > .section3 {

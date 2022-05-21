@@ -4,6 +4,8 @@ import headerBg from "../images/header.png"
 import * as echarts from 'echarts';
 import {Chart1} from "../component/Chart1";
 import {Chart2} from "../component/Chart2";
+import {Chart3} from "../component/Chart3";
+
 
 export const Home = () => {
 
@@ -21,7 +23,12 @@ export const Home = () => {
                     <Chart2/>
                 </div>
             </section>
-            <section className="border section2"></section>
+            <section className="section2">
+                <div className="border 趋势分析">
+                    <h2>发案趋势分析</h2>
+                    <Chart3/>
+                </div>
+            </section>
             <section className="border section3"></section>
             <section className="border section4"></section>
             <section className="border section5"></section>
