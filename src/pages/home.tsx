@@ -16,7 +16,7 @@ export const Home = () => {
                     <h2>案发派出所管辖统计</h2>
                     <Chart1/>
                 </div>
-                <div className="border 管辖统计">
+                <div className="border 破获排名">
                     <h2>案件破获排名</h2>
                     <Chart2/>
                 </div>
@@ -26,6 +26,9 @@ export const Home = () => {
             <section className="border section4"></section>
             <section className="border section5"></section>
         </main>
+        <footer>
+            大屏数据平台利用大数据技术采集犯罪作案信息是一套实时 监控的数据系统Copyright©2017兰州市公安局
+        </footer>
     </div>
   );
 };

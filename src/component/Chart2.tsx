@@ -8,6 +8,7 @@ export const Chart2 = () => {
     useEffect(() => {
         const myChart = echarts.init(chartRef.current);
         myChart.setOption({
+            color: ["#1177FB", "#9843E5",],
             textStyle: {
                 color: "#c8c4c4",
             },
@@ -18,6 +19,7 @@ export const Chart2 = () => {
                     color: "#c8c4c4",
                     fontSize:px(16)
                 },
+
             },
             xAxis: {
                 type: "value",
@@ -27,7 +29,10 @@ export const Chart2 = () => {
                 type: "category",
                 data: ["城关区公安局", "七里河区公安局", "西固区公安局", "安宁区公安局", "红古区公安局", "长安区公安局", "高新区公安局", "柳林区公安局", "佛陀区公安局"],
                 axisLabel: {
-                    fontSize: px(16)
+                    fontSize: px(16),
+                    formatter(value){
+                        return value.replace("公安局","\n公安局")
+                    }
                 }
             },
             grid: {
@@ -40,12 +45,12 @@ export const Chart2 = () => {
                 {
                     name: "破案排名1",
                     type: "bar",
-                    data: [18203, 23489, 29034, 104970, 131744, 630230]
+                    data: [18, 23, 29, 104, 131, 63,67,90,89]
                 },
                 {
                     name: "破案排名2",
                     type: "bar",
-                    data: [19325, 23438, 31000, 121594, 134141, 681807]
+                    data: [19, 23, 31, 124, 131, 67,90,87,61]
                 }
             ]
 
