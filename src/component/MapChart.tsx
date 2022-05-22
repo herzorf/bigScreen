@@ -25,7 +25,6 @@ export const MapChart = () => {
             },
             series: [
                 {
-                    name: "map1",
                     type: "map",
                     map: "CN", // 自定义扩展图表类型
                     data: [
@@ -47,7 +46,6 @@ export const MapChart = () => {
                     },
                 },
                 {
-                    name: "map1",
                     type: "map",
                     map: "CN", // 自定义扩展图表类型
                     data: [
@@ -68,7 +66,6 @@ export const MapChart = () => {
                     },
                 },
                 {
-                    name: "map1",
                     type: "map",
                     map: "CN", // 自定义扩展图表类型
                     data: [

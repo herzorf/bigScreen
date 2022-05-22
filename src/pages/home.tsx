@@ -7,6 +7,9 @@ import {Chart3} from "../component/Chart3";
 import {Chart4} from "../component/Chart4";
 import {TableData} from "../component/TableData";
 import {MapChart} from "../component/MapChart";
+import {Chart5} from "../component/Chart5";
+import {Chart6} from "../component/Chart6";
+import {Chart7} from "../component/Chart7";
 
 
 export const Home = () => {
@@ -45,6 +48,14 @@ export const Home = () => {
                 <div className="border 籍贯">
                     <h2>全兰州市犯罪人员籍贯分布地</h2>
                     <MapChart/>
+                </div>
+                <div className="border 年龄">
+                    <h2>兰州市犯罪人员年龄段分布</h2>
+                    <div>
+                        <Chart5/>
+                        <Chart6/>
+                        <Chart7/>
+                    </div>
                 </div>
             </section>
             <section className="border section5">
