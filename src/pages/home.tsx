@@ -1,12 +1,12 @@
-import React, {useEffect, useRef} from "react";
+import React from "react";
 import './home.scss';
 import headerBg from "../images/header.png"
-import * as echarts from 'echarts';
 import {Chart1} from "../component/Chart1";
 import {Chart2} from "../component/Chart2";
 import {Chart3} from "../component/Chart3";
 import {Chart4} from "../component/Chart4";
 import {TableData} from "../component/TableData";
+import {MapChart} from "../component/MapChart";
 
 
 export const Home = () => {
@@ -43,7 +43,8 @@ export const Home = () => {
             </section>
             <section className=" section4">
                 <div className="border 籍贯">
-                    <h2>往年战果数对比</h2>
+                    <h2>全兰州市犯罪人员籍贯分布地</h2>
+                    <MapChart/>
                 </div>
             </section>
             <section className="border section5"></section>
