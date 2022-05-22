@@ -41,7 +41,11 @@ export const Home = () => {
                     <TableData/>
                 </div>
             </section>
-            <section className="border section4"></section>
+            <section className=" section4">
+                <div className="border 籍贯">
+                    <h2>往年战果数对比</h2>
+                </div>
+            </section>
             <section className="border section5"></section>
         </main>
         <footer>
