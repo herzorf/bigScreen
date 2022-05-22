@@ -38,12 +38,7 @@ export const Chart5 = () => {
                             {value: 0.8, name: "男"},
                         ]
                     }],
-                grid: {
-                    x: px(40),
-                    y: px(60),
-                    x2: px(20),
-                    y2: px(200)
-                },
+
             });
     }, []);
     return (
