@@ -47,7 +47,9 @@ export const Home = () => {
                     <MapChart/>
                 </div>
             </section>
-            <section className="border section5"></section>
+            <section className="border section5">
+                h
+            </section>
         </main>
         <footer>
             大屏数据平台利用大数据技术采集犯罪作案信息是一套实时 监控的数据系统Copyright©2017兰州市公安局
