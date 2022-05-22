@@ -10,6 +10,9 @@ import {MapChart} from "../component/MapChart";
 import {Chart5} from "../component/Chart5";
 import {Chart6} from "../component/Chart6";
 import {Chart7} from "../component/Chart7";
+import {Chart8} from "../component/Chart8";
+import {Chart9} from "../component/Chart9";
+import {Chart10} from "../component/Chart10";
 
 
 export const Home = () => {
@@ -61,12 +64,15 @@ export const Home = () => {
                 <section className="section5">
                     <div className="border 案发统计">
                         <h2>兰州市案发类型统计</h2>
+                        <Chart8/>
                     </div>
                     <div className="border 街道统计">
                         <h2>兰州市案发街道统计</h2>
+                        <Chart9/>
                     </div>
                     <div className="border 手段分析">
                         <h2>作案手段分析</h2>
+                        <Chart10/>
                     </div>
                 </section>
             </main>
